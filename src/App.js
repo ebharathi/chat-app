@@ -5,7 +5,7 @@ import './App.css'
 import Chats from './Chats';
 
 
-const socket=io.connect("http://localhost:1000");
+const socket=io.connect("https://simplechat-room.herokuapp.com/");
 
 const App = () => {
    const [username,setUsername]=useState("");
